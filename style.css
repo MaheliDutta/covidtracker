@@ -1,0 +1,219 @@
+body {
+    margin: 10px;
+    padding: 0px;
+      background-image: url("https://scitechdaily.com/images/Coronavirus-COVID-19-Animation.gif");
+  
+    background-color: black;
+  }
+  #top{
+    font-size: 40px;
+    text-align: left;
+    color:aqua;
+    
+  }
+  
+  .blink-hard {
+    animation: blinker 4s linear infinite;
+  }
+  .blink-soft {
+    animation: blinker 1s linear infinite;
+  }
+  @keyframes blinker {
+    50% {
+      opacity: 0;
+    }
+  }
+  
+  .container {
+    padding: 2px;
+      display: grid;
+  
+  }
+  .main-div{
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      grid-gap: 20px;
+  }
+  .both{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+  }
+  #HelpLine-No{
+    background-color:#FFB319;
+    border-radius: 4px;
+    }
+  #Child{
+    background-color: greenyellow;
+  }
+  #SENIOR{
+      background-color:yellow;
+  }
+  #MentalHealth{
+      background-color:yellow;
+  }
+  #p1 {
+    text-align: right;
+    font-size: 35px;
+  }
+  
+  
+  .boxk {
+      position: relative;
+      width: 100%;
+      height: 50px;
+      overflow: hidden;
+      margin-top: 5px;
+    background-color:#030303;
+    opacity: 0.5;
+        border: solid 2px #fff;
+    box-shadow: 0 0 10px #fff;
+  }
+  .boxk p {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      font-size: 2em;
+      text-align: center;
+      line-height: 50px;
+      color: #fff;
+      transform: translateX(100%);
+      animation: scrolling 15s linear alternate-reverse infinite;
+  }
+  #select{
+    font-size: 30px;
+     opacity: 0.5;
+     width: 250px;     
+  }
+  #button{
+    width: 100px;
+    height: 40px;
+
+  }
+
+  .select{
+    
+    font-size: 20px;
+    margin-top: 7px;
+    padding-left: 40px;
+    background-color:transparent;
+    opacity: 0.5;
+  }
+
+  
+  
+  .iframeid{
+    display: grid;
+     grid-template-columns: 1fr 1fr;
+      grid-gap: auto;
+  }
+  @keyframes scrolling {
+      0% {
+          transform: translateX(100%);
+      }
+      100% {
+          transform: translateX(-100%);
+      }
+  }
+  @import url("https://fonts.googleapis.com/css2?family=Merriweather&display=swap");
+  
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Merriweather", serif;
+  }
+  
+  
+  
+  h2 {
+    text-align: center;
+    font-size: 35px;
+    color: white
+  }
+  h3.heading {
+    text-align: center;
+    color: white
+  }
+ 
+
+  .cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 5px auto;
+    max-width: 1200px;
+  }
+    .card1,.card2,.card3  {
+      width: 300px;
+      max-width: 300px;
+      margin: 12px;
+      padding: 1.5rem;
+      color: #fff;
+      border-radius: 5px;
+      box-shadow: 7px 6px 26px -17px rgba(0, 0, 0, 1);
+      cursor: pointer;
+      transition: 0.3s all;
+    }
+      h3 {
+        font-size: 40px;
+      }
+      p {
+        font-size: 20px;
+      }
+  
+      .card1 {
+        border: solid 2px #fff;
+    background-color: rgba(6, 237, 245, 0.884);
+    box-shadow: 0 0 20px rgb(185, 6, 221);
+              opacity: 0.9;
+  
+      }
+      .card2 {
+           border: solid 2px #fff;
+    box-shadow: 0 0 10px #fff;
+        background-color: #e74c3c;
+                    opacity: 0.9;
+  
+      }
+      .card3 {
+        background-color: #2ecc71;
+        border: solid 2px #fff;
+    box-shadow: 0 0 10px #fff;
+                    opacity: 0.9;
+  
+      }
+  
+      .card1:hover, .card2:hover, .card3:hover   {
+        transform: translateY(5px);
+          transform: scale(1.1); 
+  
+      }
+  
+  .iframeid{
+    opacity: 0.7;
+        border: solid 1px #fff;
+    box-shadow: 0 0 18px #fff;
+    }
+  .world-map,
+  .country-chart {
+    width: 900px;
+    max-width: 100%;
+    box-shadow: 2px 3px 18px -17px rgba(0, 0, 0, 1);
+    margin-bottom: 2rem;
+    opacity: 0.7;
+  }
+  p.info {
+    text-align: center;
+    font-size: 14px;
+  
+  
+  }
+  a{
+    text-decoration: none;
+  }
+  
+  

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+
+<head>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="stylesa.css">
+
+</head>
+
+<body>
+	<!--
+	<nav class="container">
+		<div class="main-div">
+			<div id="HelpLine-No">
+				<p id="p1">1075</p>
+				<p id="helpnum">HELPLINE NUMBERS</p>
+			</div>
+			<div id="Child">
+				<p id="p2">1098</p>
+				<p id="child">Child</p>
+			</div>
+			<div id="SENIOR">
+				<p id="080">08046110007</p>
+				<p id="MentalHealth">Mental Health</p>
+			</div>
+			<div id="MentalHealth">
+				<p>14567</p>
+				<p>Senior Citizens</p>
+			</div>
+		</div>
+	</nav>
+  -->
+	<h2 id="top"> Covid Tracker</h2>
+	<div class="boxk">
+		<p>Live Covid Cases Across the World:224,674,538+<p>
+	</div>
+
+
+	<h2>Coronavirus Dashboard</h2>
+	<div class="cards">
+		<div class="card1">
+			<h3 class="box num1"></h3>
+			<p>Total Cases</p>
+		</div>
+		<div class="card2">
+			<h3 class="box num2"></h3>
+			<p>Total Deaths</p>
+		</div>
+		<div class="card3">
+			<h3 class="box num3"></h3>
+			<p>Total Recovered</p>
+		</div>
+	</div>
+	<h3 class="heading blink-hard">World Data</h3>
+	<div class="iframeid">
+		<div id="one">
+			<iframe src="https://ourworldindata.org/grapher/total-cases-covid-19?tab=map" allowtransparency="true"
+				style="background: #FFFFFF;" width="700px" height="500px" allowtransparency="true" marginheight="0"
+				marginwidth="0" frameborder="0"></iframe>
+		</div>
+		<div id="two"> <iframe
+				src="https://ourworldindata.org/explorers/coronavirus-data-explorer?zoomToSelection=true&time=2020-03-01..latest&facet=none&pickerSort=desc&pickerMetric=new_cases_per_million&Metric=Confirmed+cases&Interval=7-day+rolling+average&Relative+to+Population=true&Align+outbreaks=false&country=~IND&hideControls=true"
+				width="700px" height="512px" allowtransparency="true" marginheight="0" marginwidth="0"
+				frameborder="0"></iframe>
+		</div>
+	</div>
+
+	<div class="world-map"></div>
+
+
+	<div class="both">
+
+		<div class="country-chart">
+			<h3 class="heading">Country Specific</h3>
+				<iframe src="https://public.domo.com/cards/aAR5B" width="900px" height="500px" marginheight="0"
+					marginwidth="0" frameborder="0"></iframe>
+		</div>
+		<div class="select">
+			<form name="blah_blah" action="#" method="post">
+				<select name="ddmenu_name" id="select" >
+            <option value="" id="selc">Select Country</option>
+            <option value="https://images.livemint.com/img/2020/04/19/600x338/newheaderwithjkandts_1587287652517_1587287652901.png"> 🇮🇳 INDIA</option>
+            <option value="https://static01.nyt.com/images/2020/10/25/us/coronavirus-us-cases-promo-1601396060818/coronavirus-us-cases-promo-1601396060818-videoSixteenByNineJumbo1600-v1238.png">🇺🇸 USA</option>
+            <option value="https://www.china-briefing.com/news/wp-content/uploads/2020/02/China-Coronavirus-Factory-Re-openings-by-Province-Latest-Update.jpg">🇨🇳 CHINA</option>
+            <option value="https://foreignpolicy.com/wp-content/uploads/2020/03/coronavirus-map-051920-homepage.png?w=1000">🇷🇺 RUSSIA</option>
+        </select>
+				<br>
+				<input type="button" name="Submit" id="button" value="Go!" onClick="window.open(ddmenu_name.value)">
+    </form>
+
+		</div>
+	</div>
+</body
